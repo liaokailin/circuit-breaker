@@ -20,7 +20,7 @@ import java.lang.reflect.Method;
  */
 @Component
 @Aspect
-@ConditionalOnProperty(prefix = "enniu.cloud.service.hystrix.command", name = "enabled", havingValue = "true", matchIfMissing = true)
+@ConditionalOnProperty(prefix = "lkl.framework.cb.hystrix.command", name = "enabled", havingValue = "true", matchIfMissing = true)
 public class AnnotationHystrixAspect extends AbstractHystrixAspect {
 
     @Pointcut("@annotation(com.lkl.framework.cb.annotations.CusHystrixCommand)")
