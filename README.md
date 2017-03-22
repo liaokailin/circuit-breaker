@@ -28,7 +28,7 @@
 
 ### 开关
 
-`lkl.framework.cb.redis.enabled`取值为`true`和`false`;`true`表示开启熔断降级功能,`false`反之.
+`lkl.framework.cb.hystrix.command.enabled`取值为`true`和`false`;`true`表示开启熔断降级功能,`false`反之.
 
 
 ### 其他配置
